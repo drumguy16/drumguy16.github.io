@@ -1,0 +1,40 @@
+#post {
+	display: inline-block;
+	width: 41%;
+	margin-left: 16%;
+	margin-bottom: 10%;
+}
+#sidebar {
+	float: left;
+	border-right: 3px solid rgb(128, 128, 128);
+	border-left: 3px solid rgb(128, 128, 128);
+	border-top: 3px solid rgb(128, 128, 128);
+	width: 25%;
+	height: 100%;
+}
+#sidebar ul li {
+	list-style-type: none;
+	
+}
+#blog-footer {
+		width: 100%;
+}
+#copy {
+	display: inline-block;
+}
+/*#links {
+	width: 20%;
+	display: inline-block;
+	margin: auto;
+}
+#links ul {
+	list-style-type: none;
+	text-align: left;
+
+}*/
+
+
+#blog-footer #social {
+	float: none;
+	margin-left: 55%;
+}
