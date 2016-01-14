@@ -3,76 +3,79 @@
   <head>
   	<title>Brett Ripley's Home Page</title>
   	<meta charset="UTF-8">
+  	<link rel="stylesheet" type="text/css" href="stylesheets/default.css">
   </head>
   <body>
-  	<div id="fb-root"></div>
-		<script>(function(d, s, id) {
-		  var js, fjs = d.getElementsByTagName(s)[0];
-		  if (d.getElementById(id)) return;
-		  js = d.createElement(s); js.id = id;
-		  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5";
-		  fjs.parentNode.insertBefore(js, fjs);
-		}(document, 'script', 'facebook-jssdk'));
-		</script>
-    <header>
-    	<section>
-    		<h1>BrettRipley</h1>
-    	</section>
-    	<article>
-    		<div class="fb-follow" data-href="https://www.facebook.com/brett.ripley.9" data-width="100" data-height="50" data-layout="button_count" data-show-faces="true"></div>
+  	<header class="clearfix">
+    	<h1 id="logo"><span>Brett</span>Ripley</h1>
+    	<article id="social">
+    		<a href="#"><img src="imgs/facebook-icon.png" alt="facebook"></a>
+    		<a href="#"><img src="imgs/Twitter-icon.png"></a>
+    		<a href="#"><img src="imgs/Youtube-icon.png"></a>
     		<a class="github-button" href="https://github.com/drumguy16" data-count-href="/drumguy16/followers" data-count-api="/users/drumguy16#followers" data-count-aria-label="# followers on GitHub" aria-label="Follow @drumguy16 on GitHub">Follow @drumguy16</a>
     	</article>
     	<nav>
-    		<a href="#">Home</a><a href="#">Projects</a><a href="#">Background</a><a href="#">Blog</a><a href="#">Contact</a>
+    		<a href="#" class="hvr-underline-from-left">Home</a><a href="#" class="hvr-underline-from-left">Projects</a><a href="#" class="hvr-underline-from-left">Background</a><a href="#" class="hvr-underline-from-left">Blog</a><a href="#" class="hvr-underline-from-left">Contact</a>
     	</nav>
     </header>
-    <section>
+    <section id="banner">
    		<img src="http://placehold.it/1300x200?text=This+Will+Be+A+Banner">
    	</section>
     <main>
-    	<a href="#">
-	   		<section>
-    			<H1>Site Design</H1>
-	    	</section>
-	    </a>
-    	<a href="#">
-	   		<section>
-    			<H1>Apps</H1>
-	  	</section>
-	   	</a>
-    	<a href="#">
-	   		<section>
-	   			<H1>Music For Media</H1>
-	   		</section>
-	   	</a>
-	   	<section>
-	    	<h1>Mission</h1>
-	    	<p>Lorem ipsum dolor sit amet, mei nonumes deleniti cu, adipisci atomorum an qui, eam ex nonumes fuisset. In cum quem solet, usu utroque accommodare et. Ei semper epicurei praesent quo, omnes consequuntur duo an. Te nec enim labitur mnesarchum, at regione volutpat sit. Legere corpora eam ea, in elit dicunt his. Velit vivendum te pro, est eu exerci facete.</p>
+	    <section id="circle-container">
+	    	<a href="#">
+		   		<section class="circle">
+	    			<H1>Site Design</H1>
+		    	</section>
+		    </a>
+	    	<a href="#">
+		   		<section class="circle">
+	    			<H1>Apps</H1>
+		  		</section>
+		   	</a>
+	    	<a href="#">
+		   		<section class="circle">
+		   			<H1>Music For Media</H1>
+				</section>
+	   		</a>
+	   	</section>
+	   	<section id="about-container">
+	   		<section class="about">
+		    	<h1>Mission</h1>
+		    	<p>Lorem ipsum dolor sit amet, mei nonumes deleniti cu, adipisci atomorum an qui, eam ex nonumes fuisset. In cum quem solet, usu utroque accommodare et. Ei semper epicurei praesent quo, omnes consequuntur duo an. Te nec enim labitur mnesarchum, at regione volutpat sit. Legere corpora eam ea, in elit dicunt his. Velit vivendum te pro, est eu exerci facete.</p>
 
-			<p>Nec minim delicata appellantur cu, te mel deseruisse signiferumque, et qui autem consul delicatissimi. Commune accusamus laboramus has an, ex ipsum ullamcorper eam, quo everti epicuri in. Ipsum gubergren et vel. Utroque delicata patrioque at sea, ad constituam inciderint eum. Natum integre postulant mei ei, mei velit ceteros dissentiunt ea. Id reque munere tacimates his, nibh vide consequuntur usu at. Vim id ipsum quodsi, et virtute accusamus mediocritatem pri.</p>
-	    </section>
-	    <section>
-	    	<h1>Brief Background</h1>
-	    	<p>Lorem ipsum dolor sit amet, mei nonumes deleniti cu, adipisci atomorum an qui, eam ex nonumes fuisset. In cum quem solet, usu utroque accommodare et. Ei semper epicurei praesent quo, omnes consequuntur duo an. Te nec enim labitur mnesarchum, at regione volutpat sit. Legere corpora eam ea, in elit dicunt his. Velit vivendum te pro, est eu exerci facete.</p>
+				<p>Nec minim delicata appellantur cu, te mel deseruisse signiferumque, et qui autem consul delicatissimi. Commune accusamus laboramus has an, ex ipsum ullamcorper eam, quo everti epicuri in. Ipsum gubergren et vel. Utroque delicata patrioque at sea, ad constituam inciderint eum. Natum integre postulant mei ei, mei velit ceteros dissentiunt ea. Id reque munere tacimates his, nibh vide consequuntur usu at. Vim id ipsum quodsi, et virtute accusamus mediocritatem pri.</p>
+		    </section>
+		    <section class="about">
+		    	<h1>Brief Background</h1>
+		    	<p>Lorem ipsum dolor sit amet, mei nonumes deleniti cu, adipisci atomorum an qui, eam ex nonumes fuisset. In cum quem solet, usu utroque accommodare et. Ei semper epicurei praesent quo, omnes consequuntur duo an. Te nec enim labitur mnesarchum, at regione volutpat sit. Legere corpora eam ea, in elit dicunt his. Velit vivendum te pro, est eu exerci facete.</p>
 
-			<p>Nec minim delicata appellantur cu, te mel deseruisse signiferumque, et qui autem consul delicatissimi. Commune accusamus laboramus has an, ex ipsum ullamcorper eam, quo everti epicuri in. Ipsum gubergren et vel. Utroque delicata patrioque at sea, ad constituam inciderint eum. Natum integre postulant mei ei, mei velit ceteros dissentiunt ea. Id reque munere tacimates his, nibh vide consequuntur usu at. Vim id ipsum quodsi, et virtute accusamus mediocritatem pri.</p>
+				<p>Nec minim delicata appellantur cu, te mel deseruisse signiferumque, et qui autem consul delicatissimi. Commune accusamus laboramus has an, ex ipsum ullamcorper eam, quo everti epicuri in. Ipsum gubergren et vel. Utroque delicata patrioque at sea, ad constituam inciderint eum. Natum integre postulant mei ei, mei velit ceteros dissentiunt ea. Id reque munere tacimates his, nibh vide consequuntur usu at. Vim id ipsum quodsi, et virtute accusamus mediocritatem pri.</p>
 
+		    </section>
 	    </section>
 	</main>
 	<footer>
-	    <section>
+	    <!--<section id="links">
+	    	<ul>
+	    		<h3>Links To Related Sources</h3>
+			    <li><a href="#">source 1</a></li>
+				<li><a href="#">source 2</a></li>
+		    	<li><a href="#">source 3</a></li>
+		    	<li><a href="#">source 4</a></li>
+		    	<li><a href="#">source 5</a></li>
+		    </ul>
+	    </section>-->	
+    	<article id="social">
+    		<a href="#"><img src="imgs/facebook-icon.png" alt="facebook"></a>
+    		<a href="#"><img src="imgs/Twitter-icon.png"></a>
+    		<a href="#"><img src="imgs/Youtube-icon.png"></a>
+    		<a class="github-button" href="https://github.com/drumguy16" data-count-href="/drumguy16/followers" data-count-api="/users/drumguy16#followers" data-count-aria-label="# followers on GitHub" aria-label="Follow @drumguy16 on GitHub">Follow @drumguy16</a>
+			<script async defer id="github-bjs" src="https://buttons.github.io/buttons.js"></script>
+    	</article>
+	    <section id="copy">
 	    	<p>&copy;Brett Ripley 2016</p>
 	    </section>
-	    <section>
-	    	<h3>Links To Related Sources</h3>
-	    	<a href="#">source 1</a><a href="#">source 2</a><a href="#">source 3</a><a href="#">source 4</a><a href="#">source 5</a>
-	    </section>	
-		<article>
-    		<div class="fb-follow" data-href="https://www.facebook.com/brett.ripley.9" data-width="100" data-height="50" data-layout="button_count" data-show-faces="true"></div>
-    		<a class="github-button" href="https://github.com/drumguy16" data-count-href="/drumguy16/followers" data-count-api="/users/drumguy16#followers" data-count-aria-label="# followers on GitHub" aria-label="Follow @drumguy16 on GitHub">Follow @drumguy16</a>
-    		<script async defer id="github-bjs" src="https://buttons.github.io/buttons.js"></script>
-    	</article>
-
 	</footer>
   </body>
 </html>
