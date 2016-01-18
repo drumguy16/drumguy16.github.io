@@ -2,56 +2,51 @@
 <html>
   <head>
   	<title>Brett Ripley's Blog Index</title>
+    <link rel="stylesheet" type="text/css" href="../stylesheets/default.css">
+    <link rel="stylesheet" type="text/css" href="../stylesheets/blog.css">
   	<meta charset="UTF-8">
   </head>
   <body>
-  	<div id="fb-root"></div>
-		<script>(function(d, s, id) {
-		  var js, fjs = d.getElementsByTagName(s)[0];
-		  if (d.getElementById(id)) return;
-		  js = d.createElement(s); js.id = id;
-		  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5";
-		  fjs.parentNode.insertBefore(js, fjs);
-		}(document, 'script', 'facebook-jssdk'));
-		</script>
-    <header>
-    	<section>
-    		<h1>BrettRipley</h1>
-    	</section>
-    	<article>
-    		<div class="fb-follow" data-href="https://www.facebook.com/brett.ripley.9" data-width="100" data-height="50" data-layout="button_count" data-show-faces="true"></div>
-    		<a class="github-button" href="https://github.com/drumguy16" data-count-href="/drumguy16/followers" data-count-api="/users/drumguy16#followers" data-count-aria-label="# followers on GitHub" aria-label="Follow @drumguy16 on GitHub">Follow @drumguy16</a>
-    	</article>
-    	<nav>
-    		<a href="#">Home</a><a href="#">Projects</a><a href="#">Background</a><a href="#">Blog</a><a href="#">Contact</a>
-    	</nav>
-    </header>
+      <header class="clearfix">
+        <h1 id="logo"><span>Brett's</span>Blog</h1>
+        <article id="social">
+          <a href="#"><img src="../imgs/facebook-Icon.png" alt="facebook"></a>
+          <a href="#"><img src="../imgs/Twitter-Icon.png"></a>
+          <a href="#"><img src="../imgs/Youtube-Icon.png"></a>
+          <a class="github-button" href="https://github.com/drumguy16" data-count-href="/drumguy16/followers" data-count-api="/users/drumguy16#followers" data-count-aria-label="# followers on GitHub" aria-label="Follow @drumguy16 on GitHub">Follow @drumguy16</a>
+        </article>
+        <nav>
+          <a href="../index.html" class="hvr-underline-from-left">Home</a><a href="#" class="hvr-underline-from-left">Projects</a><a href="#" class="hvr-underline-from-left">Background</a><a href="#" class="hvr-underline-from-left">Blog</a><a href="#" class="hvr-underline-from-left">Contact</a>
+        </nav>
+      </header>
     <main>
       <h1>Recent Posts</h1>
       <ul>
-        <a href="http://drumguy16.github.io/blog/git"><li>Version Control Systems</li></a>
-        <a href="#"><li>Previous Post</li></a>
-        <a href="#"><li>Previous Post</li></a>
-        <a href="#"><li>Previous Post</li></a>
-        <a href="#"><li>Previous Post</li></a>
-        <a href="#"><li>Previous Post</li></a>
-        <a href="#"><li>Previous Post</li></a>
+        <a href="version-control.html"><li>Version Control Systems</li></a>
+        <a href="css-concepts.html"><li>css-concepts.html</li></a>
       </ul>
     </main>
-    <footer>
-      <section>
-        <p>&copy;Brett Ripley 2016</p>
-      </section>
-      <section>
-        <h3>Links To Related Sources</h3>
-        <a href="#">source 1</a><a href="#">source 2</a><a href="#">source 3</a><a href="#">source 4</a><a href="#">source 5</a>
-      </section>  
-      <article>
-        <div class="fb-follow" data-href="https://www.facebook.com/brett.ripley.9" data-width="100" data-height="50" data-layout="button_count" data-show-faces="true"></div>
-        <a class="github-button" href="https://github.com/drumguy16" data-count-href="/drumguy16/followers" data-count-api="/users/drumguy16#followers" data-count-aria-label="# followers on GitHub" aria-label="Follow @drumguy16 on GitHub">Follow @drumguy16</a>
+    <footer id="blog-footer">
+        <!--<section id="links">
+          <ul>
+            <h3>Links To Related Sources</h3>
+            <li><a href="#">source 1</a></li>
+          <li><a href="#">source 2</a></li>
+            <li><a href="#">source 3</a></li>
+            <li><a href="#">source 4</a></li>
+            <li><a href="#">source 5</a></li>
+          </ul>
+        </section>--> 
+        <article id="social">
+          <a href="#"><img src="../imgs/facebook-Icon.png" alt="facebook"></a>
+          <a href="#"><img src="../imgs/Twitter-Icon.png"></a>
+          <a href="#"><img src="../imgs/Youtube-Icon.png"></a>
+          <a class="github-button" href="https://github.com/drumguy16" data-count-href="/drumguy16/followers" data-count-api="/users/drumguy16#followers" data-count-aria-label="# followers on GitHub" aria-label="Follow @drumguy16 on GitHub">Follow @drumguy16</a>
         <script async defer id="github-bjs" src="https://buttons.github.io/buttons.js"></script>
-      </article>
-
+        </article>
+        <section id="copy">
+          <p>&copy;Brett Ripley 2016</p>
+        </section>
     </footer>
   </body>
 </html>
