@@ -1,0 +1,13 @@
+/*Fonts*/
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+@import url(https://fonts.googleapis.com/css?family=Nobile:400,700);
+/*Body Styling*/
+#project_banner {
+	font-family: 'Nobile', serif;
+	text-align: center;
+}
+
+/*footer {
+	position:fixed;
+	bottom:0;
+}*/

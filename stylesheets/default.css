@@ -155,7 +155,8 @@ footer {
 	width: 100%;
 }
 #copy {
-	display: inline-block;
+	position: fixed;
+	bottom: 0;
 }
 /*#links {
 	width: 20%;
