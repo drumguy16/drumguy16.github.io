@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Creating Classes</title>
+		<link rel="stylesheet" type="text/css" href="../stylesheets/default.css">
+		<link rel="stylesheet" type="text/css" href="../stylesheets/blog.css">
+	</head>
+	<body>
+	  	<header class="clearfix">
+	    	<h1 id="logo"><span>Brett's</span>Blog</h1>
+	    	<article id="social">
+	    		<a href="#"><img src="../imgs/facebook-Icon.png" alt="facebook"></a>
+	    		<a href="#"><img src="../imgs/Twitter-Icon.png"></a>
+	    		<a href="#"><img src="../imgs/Youtube-Icon.png"></a>
+	    		<a class="github-button" href="https://github.com/drumguy16" data-count-href="/drumguy16/followers" data-count-api="/users/drumguy16#followers" data-count-aria-label="# followers on GitHub" aria-label="Follow @drumguy16 on GitHub">Follow @drumguy16</a>
+	    	</article>
+	    	<nav>
+	    	<nav>
+	    		<a href="../index.html" class="hvr-underline-from-left">Home</a>
+	    		<a href="#" class="hvr-underline-from-left">Projects</a>
+	    		<a href="#" class="hvr-underline-from-left">Background</a>
+	    		<a href="index.html" class="hvr-underline-from-left">Blog</a>
+	    		<a href="#" class="hvr-underline-from-left">Contact</a>
+	    	</nav>
+	    	</nav>
+	    </header>
+		<main>
+			<section id="post">
+				<h1>console.log("I'm A JavaScript Noob!")</h1>
+				<h4>February 13, 2016</h4>
+				<h4>My First Week of JavaScript</h4>
+				
+				<p>So, I’ve spent the past week tinkering with the JavaScript language. I got to define some variables, create some functions, loop some loops, fumble through a few objects, and even create a simple game (very….very simple).  I would say I’m pretty much a pro. Well, maybe not. But I did get to compare and contrast what I’ve learned with my working knowledge of Ruby.  Most of my time with JavaScript, thus far, has been spent messing with ‘objects.’ An ‘object’ in JavaScript are very similar to a ‘hash’ in Ruby. Objects are essentially an unordered list of name-value pairs, called properties, which are stored inside a set of curly braces. The basic construct of a ruby hash is very similar. Hashes are an unordered set of key-value pairs that are also stored inside a set of curly braces. In both languages, we can use these containers to store all kinds of data types including strings, numbers, booleans, and even other nested containers of data. Many times, in the JavaScript language, objects will also contain functions, or custom blocks of code that can be invoked to perform tasks on other data types. Generally, in the Ruby language this same kind of actionable code would be stored in classes.</p>
+
+				<p>Let's take a look at the differences in syntax and accessibility for these container types. In Ruby, we have a few different ways to create hashes. One type is called 'hash literal' creation. That method looks something like this: </p>
+				<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%">my_hash <span style="color: #333333">=</span> {<span style="background-color: #fff0f0">&quot;food&quot;</span> <span style="color: #333333">=&gt;</span> <span style="background-color: #fff0f0">&quot;brownies&quot;</span>, <span style="background-color: #fff0f0">&quot;number&quot;</span> <span style="color: #333333">=&gt;</span> <span style="color: #0000DD; font-weight: bold">6</span>}
+				</pre></div>
+
+				<p>Hashes can also be created using the built in Hash.new method:</p>
+				<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%">my_hash <span style="color: #333333">=</span> <span style="color: #003366; font-weight: bold">Hash</span><span style="color: #333333">.</span>new
+				</pre></div>
+				<p>This method will create a new empty hash that you can add key-value pairs to at your discretion.</p>
+
+				<p>Objects in the JavaScript language have two similar creation methods. The name-value syntax is slightly different, however. Here is an example of ‘object literal’ creation: </p>
+				<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%">my_hash <span style="color: #333333">=</span> {
+   dranks<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&quot;martinis&quot;</span>,
+   drunk<span style="color: #333333">:</span> <span style="color: #008800; font-weight: bold">true</span>
+   }
+</pre></div>
+
+				<p>Notice that Ruby hashes use the => operator to assign keys to their value where as JavaScript objects use the : operator to assign property names to their values. Also, take note of the fact that hash keys are surrounded in quotes but object property names generally are not.</p>
+
+				<p>Now, let's check out a few ways to access these data types in their respective containers. For now, we will just stick to accessing values with a given key or property name. In Ruby:</p>
+				<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%">my_hash <span style="color: #333333">=</span> {<span style="background-color: #fff0f0">&quot;groups&quot;</span> <span style="color: #333333">=&gt;</span> <span style="color: #0000DD; font-weight: bold">3</span>, <span style="background-color: #fff0f0">&quot;teams&quot;</span> <span style="color: #333333">=&gt;</span> <span style="color: #0000DD; font-weight: bold">1</span>}
+my_hash[<span style="background-color: #fff0f0">&quot;groups&quot;</span>]
+<span style="color: #333333">=&gt;</span> <span style="color: #0000DD; font-weight: bold">3</span>
+</pre></div>
+
+				<p>We can simply reference the hash name followed by the key name in square brackets and the value will be returned. In JavaScript, the same query might look like this:</p>
+				<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%">my_hash <span style="color: #333333">=</span> {
+   groups<span style="color: #333333">:</span> <span style="color: #0000DD; font-weight: bold">3</span>,
+   teams<span style="color: #333333">:</span><span style="color: #0000DD; font-weight: bold">1</span>
+   };
+my_hash.groups
+<span style="color: #333333">=&gt;</span> <span style="color: #0000DD; font-weight: bold">3</span>
+</pre></div>
+
+				<p>Ok! Much JavaScript discovery ahead for this noob. More exciting and informative blog posts soon….Hopefully.</p>
+
+			</section>
+
+			<aside id="sidebar">
+				<ul>
+					<h3>Previous Posts</h3>
+					<li><a href="JavaScript.html">console.log("I'm A JavaScript Noob!")</a></li>		
+					<p>My first week with JavaScript</p>			
+					<li><a href="ruby_classes.html">Creating Classes In Ruby</a></li>
+					<p>What are classes and when are they useful</p>
+					<p>A powerful tool in the world of Ruby</p>					
+					<li><a href="enumerable-methods.html">Enumerable #map</a></li>
+					<p>A powerful tool in the world of Ruby</p>					
+					<li><a href="arrays-hashes.html">Adorable Arrays and Hefty Hashes</a></li>
+					<p>What Are They and How Are They Used</p>
+					<li><a href="css-concepts.html">CSS Concepts</a></li>
+					<p>Margins, Borders, and Padding.....Oh, My!</p>
+					<li><a href="version-control.html">Version Control</a></li>
+					<p>The wonderful world of Git and Github. Why we need version control.</p>
+
+				</ul>
+			</aside>
+		</main>
+
+
+		<footer id="blog-footer">
+		    <!--<section id="links">
+		    	<ul>
+		    		<h3>Links To Related Sources</h3>
+				    <li><a href="#">source 1</a></li>
+					<li><a href="#">source 2</a></li>
+			    	<li><a href="#">source 3</a></li>
+			    	<li><a href="#">source 4</a></li>
+			    	<li><a href="#">source 5</a></li>
+			    </ul>
+		    </section>-->	
+	    	<article id="social">
+	    		<a href="#"><img src="../imgs/facebook-Icon.png" alt="facebook"></a>
+	    		<a href="#"><img src="../imgs/Twitter-Icon.png"></a>
+	    		<a href="#"><img src="../imgs/Youtube-Icon.png"></a>
+	    		<a class="github-button" href="https://github.com/drumguy16" data-count-href="/drumguy16/followers" data-count-api="/users/drumguy16#followers" data-count-aria-label="# followers on GitHub" aria-label="Follow @drumguy16 on GitHub">Follow @drumguy16</a>
+				<script async defer id="github-bjs" src="https://buttons.github.io/buttons.js"></script>
+	    	</article>
+		    <section id="copy">
+		    	<p>&copy;Brett Ripley 2016</p>
+		    </section>
+		</footer>
+	</body>
+
+</html>
