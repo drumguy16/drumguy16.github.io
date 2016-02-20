@@ -1,0 +1,44 @@
+/*Fonts*/
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+@import url(https://fonts.googleapis.com/css?family=Nobile:400,700);
+/*Main Stylings*/
+.cheats h1 {
+	font-family:'Lobster', cursive;
+	color: #2098d1;
+	font-size: 2em; 
+	text-align: center;
+}
+
+.cheats h2 {
+	font-family: 'Nobile', serif;
+	font-size: 1.25em;
+}
+
+.cheats h3 {
+	font-family: 'Nobile', serif;
+	color: #2098d1;
+}
+
+.shortcut {
+	border-left: 1px solid black;
+	border-bottom: 1px solid black;
+	padding: 5px;
+	margin-top: 5px;
+	border-radius: 5px;
+}
+
+#column1 {
+	float:left;
+	width:30%;
+	margin-left: 14%;
+}
+
+#column2 {
+	float:right;
+	width: 30%;
+	margin-right: 14%;
+
+}
+#social {
+	clear:both;
+}
