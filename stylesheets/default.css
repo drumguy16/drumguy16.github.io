@@ -72,6 +72,11 @@ nav a{
 #social {
 	float:right;
 }
+
+#social img {
+	width:7%;
+	float: right;
+}
 /*Main Stylings for index////////////////////////////////////////*/
 main {
 	width: 100%;
@@ -80,6 +85,9 @@ main {
 }
 
 /*Banner Stylings*/
+#banner {
+	height:5%;
+}
 #banner img {
 	width:100%;
 }
@@ -87,6 +95,7 @@ main {
 #circle-container {
 	width:50%;
 	margin: auto;
+	margin-top: 3%;
 }
 #circle-container a {
 	color: black;
@@ -173,6 +182,10 @@ footer {
 footer #social {
 	float: none;
 	margin-left: 41%
+}
+
+footer #social img {
+	float: none;
 }
 
 
