@@ -1,24 +1,30 @@
 /*Fonts*/
+@import url(https://fonts.googleapis.com/css?family=Monofett);
+@import url(https://fonts.googleapis.com/css?family=Monoton);
 @import url(https://fonts.googleapis.com/css?family=Lobster);
 @import url(https://fonts.googleapis.com/css?family=Nobile:400,700);
+body {
+	background-image: url(../imgs/brickwall.png);
+}
 /*Default Header Styles//////////////////////////////////////////////*/
 header {
-	border-left:1px solid rgb(128, 128, 128);
-	border-bottom:1px solid rgb(128, 128, 128);
+
+
 }
 .clearfix {
   overflow: auto;
 }
 /*Logo Stylings*/
 #logo {
-	font-family: 'Lobster', cursive;
-	color: rgb(128, 128, 128);
+	font-family: 'Monofett', cursive;
+	font-size: 3em;
+	color: #DB222A;
 	float: left;
 	margin-top: 0;
 	margin-left: 1%;
 }
  span {
-	color: black;
+	color: #053C5E;
 }
 /*Nav bar stylings*/
 nav {
@@ -55,7 +61,7 @@ nav a{
   left: 0;
   right: 100%;
   bottom: 0;
-  background: #2098d1;
+  background: #053C5E;
   height: 4px;
   -webkit-transition-property: right;
   transition-property: right;
@@ -144,13 +150,14 @@ main {
 
 }
 .about {
+	
 	display: inline-block;
 	width: 30%;
 	margin-left: 13%;
 	margin-top: 5%;
 	margin-bottom: 5%;
-	border-left: 1px solid black;
-	border-bottom: 1px solid black;
+	border-left: 1px solid #053C5E;
+	border-bottom: 1px solid  #053C5E;
 	padding: 1em;
 }
 .about h1 {
