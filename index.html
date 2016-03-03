@@ -5,6 +5,20 @@
   	<meta charset="UTF-8">
   	<link rel="stylesheet" type="text/css" href="stylesheets/default.css">
   </head>
+  <script>
+  		$(document).ready(function() {
+  $("#cf7_controls").on('click', 'span', function() {
+    $("#cf7 img").removeClass("opaque");
+
+    var newImage = $(this).index();
+
+    $("#cf7 img").eq(newImage).addClass("opaque");
+
+    $("#cf7_controls span").removeClass("selected");
+    $(this).addClass("selected");
+  });
+});
+  </script>
   <body>
   	<header class="clearfix">
     	<h1 id="logo"><span>Brett</span>Ripley</h1>
@@ -44,6 +58,18 @@
 				</section>
 	   		</a>
 	   	</section>
+	   	<div id="cf7" class="shadow">
+		  <img class='opaque' src="imgs/me1.jpg" />
+		  <img src="imgs/me2.jpg" />
+		  <img src="imgs/me3.jpg" />
+		  <img src="imgs/me4.jpg" />
+		</div>
+		<p id="cf7_controls">
+		  <span class="selected">Image 1</span>
+		  <span>Image 2</span>
+		  <span>Image 3</span>
+		  <span>Image 4</span>
+		</p>
 	   	<section id="about-container">
 	   		<section class="about">
 		    	<h1>Mission</h1>
@@ -82,5 +108,6 @@
 	    	<p>&copy;Brett Ripley 2016</p>
 	    </section>
 	</footer>
+	
   </body>
 </html>
