@@ -24,13 +24,7 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-  <!-- Start VideoLightBox.com HEAD section -->
-		<link rel="stylesheet" href="index_videolb/videolightbox.css" type="text/css" />
-		
-			<link rel="stylesheet" type="text/css" href="index_videolb/overlay-minimal.css"/>
-			<!--script src="index_videolb/jquery.js" type="text/javascript"></script-->
-			<!--script src="index_videolb/swfobject.js" type="text/javascript"></script-->
-		<!-- End VideoLightBox.com HEAD section --></head>
+  </head>
   <body>
     <!-- header and nav -->
     <header>
@@ -162,17 +156,7 @@
       <div class="col-md-10 collapse" id="hobbies">
         <div class="card card-block" id="passions">
           <h4>My Hobbies</h4>
-          <p>I am passionate about writing music for media!</p> 
-        <div class="videogallery">
-        	<a class="voverlay" href="http://vimeo.com/moogaloop.swf?clip_id=77229232&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=1&amp;autoplay=1" title="[CruiseElroy] animated promo!  Whiteboard animation!  Hooray!"><img src="index_videolb/thumbnails/0.png" alt="[CruiseElroy] animated promo!  Whiteboard animation!  Hooray!" /><span></span></a>
-        <a class="voverlay" href="http://vimeo.com/moogaloop.swf?clip_id=77233716&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=1&amp;autoplay=1" title="Cruise Elroy.  New album out March 2014."><img src="index_videolb/thumbnails/1.png" alt="Cruise Elroy.  New album out March 2014." /><span></span></a>
-        <a class="voverlay" href="http://vimeo.com/moogaloop.swf?clip_id=77610857&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=1&amp;autoplay=1" title="Cruise Elroy - The Fever"><img src="index_videolb/thumbnails/2.png" alt="Cruise Elroy - The Fever" /><span></span></a>
-        <a class="voverlay" href="http://vimeo.com/moogaloop.swf?clip_id=77718260&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=1&amp;autoplay=1" title="CruiseElroy rehearsal - Jitterbug"><img src="index_videolb/thumbnails/3.png" alt="CruiseElroy rehearsal - Jitterbug" /><span></span></a><span class="videolb"><a class="videolb" href="http://videolightbox.com">Lightbox Embed Video</a> by VideoLightBox.com v2.8m</span>
-        </div>
-        	<script src="index_videolb/jquery.tools.min.js" type="text/javascript"></script>
-        	<script src="index_videolb/videolightbox.js" type="text/javascript"></script>
-        	<!-- End VideoLightBox.com BODY section -->
-
+          <p>I am passionate about writing music for media! These are only demos. I wrote and recorded the music for these samples, but did not actually work on these commercials. The videos are just a vehicle to demonstrate my love for composing commercial music.</p>
           <!-- Start VideoLightBox.com BODY section -->
           <div class="videogallery">
           <a class="voverlay" href="http://www.youtube.com/v/CcPTaCrjwWo?autoplay=1&rel=0&enablejsapi=1&playerapiid=ytplayer" title="IBM"><img src="brett_videolb/thumbnails/0.png" alt="IBM" /><span></span></a>
@@ -181,7 +165,7 @@
           </div>
           <script src="brett_videolb/jquery.tools.min.js" type="text/javascript"></script>
           <script src="brett_videolb/videolightbox.js" type="text/javascript"></script>
-                  <!-- End VideoLigh<!-- Start VideoLightBox.com BODY section -->
+          <!-- End VideoLightBox.com BODY section -->
         </div>
       </div>
     </section> 
