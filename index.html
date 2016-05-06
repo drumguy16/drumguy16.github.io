@@ -1,127 +1,191 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-  	<title>Brett Ripley's Home Page</title>
-  	<meta charset="UTF-8">
-  	<link rel="stylesheet" type="text/css" href="stylesheets/default.css">
-  	<script type="text/javascript">
-  		$(document).ready(function() {
-  $("#cf7_controls").on('click', 'span', function() {
-    $("#cf7 img").removeClass("opaque");
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Brett Ripley</title>
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap 101 Template</title>
 
-    var newImage = $(this).index();
+    <!-- Bootstrap -->
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
+    <link rel="stylesheet" href="stylesheets/default.css">
+    <!-- Start VideoLightBox.com HEAD section -->
+    <link rel="stylesheet" href="brett_videolb/videolightbox.css" type="text/css" />  
+    <link rel="stylesheet" type="text/css" href="brett_videolb/overlay-minimal.css"/>
+    <script src="brett_videolb/jquery.js" type="text/javascript"></script>
+    <script src="brett_videolb/swfobject.js" type="text/javascript"></script>
+    <!-- End VideoLightBox.com HEAD section -->
 
-    $("#cf7 img").eq(newImage).addClass("opaque");
-
-    $("#cf7_controls span").removeClass("selected");
-    $(this).addClass("selected");
-  });
-});
-  	</script>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
   </head>
-  <script type="text/javascript">
-  		$(document).ready(function() {
-  $("#cf7_controls").on('click', 'span', function() {
-    $("#cf7 img").removeClass("opaque");
-
-    var newImage = $(this).index();
-
-    $("#cf7 img").eq(newImage).addClass("opaque");
-
-    $("#cf7_controls span").removeClass("selected");
-    $(this).addClass("selected");
-  });
-});
-  </script>
   <body>
-  	<header class="clearfix">
-    	<h1 id="logo"><span>Brett</span>Ripley</h1>
-    	<article id="social">
-    		<a href="https://www.facebook.com/brett.ripley.9"><img src="imgs/f_book.png" alt="facebook"></a>
-    		<a href="#"><img src="imgs/twitter.png"></a>
-    		<a href="https://www.youtube.com/channel/UCVUskB10VJXWiIwSLn4S7vA"><img src="imgs/youtube.png"></a>
-    		<a href="https://github.com/drumguy16"><img src="imgs/github.png"></a>
-    		<a href="https://www.linkedin.com/in/brett-ripley-73164b1a?trk=nav_responsive_tab_profile"><img src="imgs/linked_in.png"></a>
-    	</article>
-    	<nav>
-    		<a href="index.html" class="hvr-underline-from-left">Home</a>
-    		<a href="projects/index.html" class="hvr-underline-from-left">Projects</a>
-    		<a href="bio.html" class="hvr-underline-from-left">Background</a>
-    		<a href="blog/index.html" class="hvr-underline-from-left">Blog</a>
-    		<a href="contact.html" class="hvr-underline-from-left">Contact</a>
-    	</nav>
+    <!-- header and nav -->
+    <header>
+    <!-- collapsable navigation -->
+   <!--    <div class="collapse" id="exCollapsingNavbar">
+        <div class="bg-inverse p-a-1">
+          <ul class="nav nav-inline">
+            <li class="nav-item">
+              <a class="nav-link" href="articles.html">Articles</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="projects.html">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="languages.html">Languages</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="bio.html">Bio</a>
+            </li>
+          </ul>  
+          
+        </div>
+      </div> -->
+    <!--  /collapsable navigation -->
+
+    <!-- toggle navigation button -->
+     <!--  <nav class="navbar navbar-light bg-faded">
+        <a class="navbar-brand" href="index.html"><h4>Brett<span>Ripley</span></h4></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar">
+          &#9776;
+        </button>
+      </nav> -->
+    <!-- /toggle navigation button -->
     </header>
-<!--     <section id="banner">
-   		<img src="imgs/binary_banner.jpg">
-   	</section> -->
-    <main>
-	    <section id="circle-container">
-	    	<a href="#">
-		   		<section class="circle">
-	    			<H1>Site Design</H1>
-		    	</section>
-		    </a>
-	    	<a href="#">
-		   		<section class="circle">
-	    			<H1>Apps</H1>
-		  		</section>
-		   	</a>
-	    	<a href="#">
-		   		<section class="circle">
-		   			<H1>Music For Media</H1>
-				</section>
-	   		</a>
-	   	</section>
-	   	<div id="cf7" class="shadow">
-		  <img class='opaque' src="imgs/me1.jpg" />
-		  <img src="imgs/me2.jpg" />
-		  <img src="imgs/me3.jpg" />
-		  <img src="imgs/me4.jpg" />
-		</div>
-		<p id="cf7_controls">
-		  <span class="selected">Image 1</span>
-		  <span>Image 2</span>
-		  <span>Image 3</span>
-		  <span>Image 4</span>
-		</p>
-	   	<section id="about-container">
-	   		<section class="about">
-		    	<h1>Mission</h1>
-		    	<p>Lorem ipsum dolor sit amet, mei nonumes deleniti cu, adipisci atomorum an qui, eam ex nonumes fuisset. In cum quem solet, usu utroque accommodare et. Ei semper epicurei praesent quo, omnes consequuntur duo an. Te nec enim labitur mnesarchum, at regione volutpat sit. Legere corpora eam ea, in elit dicunt his. Velit vivendum te pro, est eu exerci facete.</p>
+    <!-- /page header -->
 
-				<p>Nec minim delicata appellantur cu, te mel deseruisse signiferumque, et qui autem consul delicatissimi. Commune accusamus laboramus has an, ex ipsum ullamcorper eam, quo everti epicuri in. Ipsum gubergren et vel. Utroque delicata patrioque at sea, ad constituam inciderint eum. Natum integre postulant mei ei, mei velit ceteros dissentiunt ea. Id reque munere tacimates his, nibh vide consequuntur usu at. Vim id ipsum quodsi, et virtute accusamus mediocritatem pri.</p>
-		    </section>
-		    <section class="about">
-		    	<h1>Brief Background</h1>
-		    	<p>Lorem ipsum dolor sit amet, mei nonumes deleniti cu, adipisci atomorum an qui, eam ex nonumes fuisset. In cum quem solet, usu utroque accommodare et. Ei semper epicurei praesent quo, omnes consequuntur duo an. Te nec enim labitur mnesarchum, at regione volutpat sit. Legere corpora eam ea, in elit dicunt his. Velit vivendum te pro, est eu exerci facete.</p>
-
-				<p>Nec minim delicata appellantur cu, te mel deseruisse signiferumque, et qui autem consul delicatissimi. Commune accusamus laboramus has an, ex ipsum ullamcorper eam, quo everti epicuri in. Ipsum gubergren et vel. Utroque delicata patrioque at sea, ad constituam inciderint eum. Natum integre postulant mei ei, mei velit ceteros dissentiunt ea. Id reque munere tacimates his, nibh vide consequuntur usu at. Vim id ipsum quodsi, et virtute accusamus mediocritatem pri.</p>
-
-		    </section>
-	    </section>
-	</main>
-	<footer>
-	    <!--<section id="links">
-	    	<ul>
-	    		<h3>Links To Related Sources</h3>
-			    <li><a href="#">source 1</a></li>
-				<li><a href="#">source 2</a></li>
-		    	<li><a href="#">source 3</a></li>
-		    	<li><a href="#">source 4</a></li>
-		    	<li><a href="#">source 5</a></li>
-		    </ul>
-	    </section>-->	
-    	<article id="social">
-    		<a href="https://www.facebook.com/brett.ripley.9"><img src="imgs/f_book.png" alt="facebook"></a>
-    		<a href="#"><img src="imgs/twitter.png"></a>
-    		<a href="https://www.youtube.com/channel/UCVUskB10VJXWiIwSLn4S7vA"><img src="imgs/youtube.png"></a>
-    		<a href="https://github.com/drumguy16"><img src="imgs/github.png"></a>
-    		<a href="https://www.linkedin.com/in/brett-ripley-73164b1a?trk=nav_responsive_tab_profile"><img src="imgs/linked_in.png"></a>
-    	</article>
-	    <section id="copy">
-	    	<p>&copy;Brett Ripley 2016</p>
-	    </section>
-	</footer>
-	
+    <!-- main display head jumbotron-->
+    <div class="jumbotron text-sm-center">
+      <h1 class="display-3 m-b-2">Brett Ripley</h1>
+      <img id="headshot" src="images/headshot_new.png">
+      <p class="lead m-b-2">Full stack developer specializing in front end web solutions</p>
+    <!-- language icons -->
+      <div class="container row hidden-sm-down m-b-2">
+        <img class="col-sm-1 col-sm-offset-3" src="images/JavaScript.png">
+        <img class="col-sm-1 " src="images/ajax.png">
+        <img class="col-sm-1 " src="images/jquery.png">
+        <img class="col-sm-1 " src="images/react.png">
+        <img class="col-sm-1 " src="images/ruby.png">
+        <img class="col-sm-1 " src="images/rails.png">
+        <img class="col-sm-1 " src="images/html5.png">
+        <img class="col-sm-1 " src="images/css.png">
+        <img class="col-sm-1 " src="images/bootstrap.png">
+      </div>
+    <!-- /language icons -->
+    </div>
+    <!-- /main display head jumbotron -->
+    <hr size="10">
+    <!-- collapse buttons -->
+    <section class="container text-sm-center">
+          <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#my-story" aria-expanded="false" aria-controls="my-story">
+            My Story
+          </button>            
+    </section>
+    <section class="container p-t-1 information">
+      <div class="col-md-10 collapse" id="my-story">
+        <div class="card card-block">
+          <h4>My Story</h4>
+          <p>I have always known myself to be someone who is driven by creativity. I began my professional career as a music composer, performer, and educator.  While I loved the art of performing on stage, I was always more drawn to composing. I loved the craft of creating pieces of music from scratch and the process of continually chipping away them as they evolve and come to life.  I found a similar drive and passion in my career as a bartender. I Loved learning about the subtleties of the tools at my disposal and then using them to create custom craft cocktails and experiences for my clientele.</p>
+          <p>I made the jump to coding upon the trusted recommendation of a friend who was in the tech field.  After exploring a few online courses, and gaining enough of a skill set to begin creating web content, I found myself sitting at my computer for  upwards of 8 hours at a time experimenting and creating in much the same fashion and with the same curiosity that I had with music and spirits.  I view web development as another empowering outlet  for creativity and problem solving. </p>
+          <p>I envision myself working as a front end developer in a progressive environment with a team to produce creative and innovative solutions  while  always looking to push the boundaries of what is currently possible.</p>
+        </div>
+      </div>
+    </section>
+    <hr size="10">
+    <section class="container text-sm-center">
+          <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#my-education" aria-expanded="false" aria-controls="my-education">
+           My Education
+          </button>                 
+    </section>
+    <section class="container p-t-1 information"> 
+      <div class="col-md-10 collapse" id="my-education">
+        <div class="card card-block">
+          <h4>My Education</h4>
+          <p>I am a proud graduate of <a href="http://devbootcamp.com/?utm_source=Google&utm_medium=cpc&utm_campaign=NYC+Metro+-+Branded&utm_content=Branded+-+Dev+Bootcamp&utm_term=dev%20bootcamp%20nyc">Dev Bootcamp NYC</a>. The Skills and tools I acquired at DBC have empowered me with the confidence to find creative solutions to virtually any design issue I encounter. During my time in bootcamp, I also refined my skills in positive communication and my ability to foster collaborative spaces in an empathetic and productive manner.</p>
+          <p>I am also a long time subscriber to educational sites like <a href="https://teamtreehouse.com/home">Treehouse</a>, <a href="https://www.lynda.com/">Lynda</a>, and <a href="https://egghead.io/">Egghead</a>. An inherent drive to always be pushing my own boundaries and keep my code fresh keeps me in a constant state of hunger for knowledge. I have no foreseeable plans to take a break in my educational journey.</p>
+        </div>
+      </div> 
+    </section>
+    <!-- /information section -->
+    <hr size="10">
+    <!-- Projects -->
+    <section class="container text-sm-center">
+      <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#projects" aria-expanded="false" aria-controls="projects">
+        My Projects
+      </button>
+    </section>
+    <section class="container collapse text-sm-center p-t-1" id="projects">
+      <div class="col-md-6 card project">
+        <img class="card-img-top" src="images/mdb-1.png" alt="DBCMDB">
+        <div class="card-block">
+          <h4 class="card-title">DBCMDB</h4>
+          <p class="card-text">• A web app that emulates a popular movie database</p>
+          <p class="card-text">• Constructed by a team of three in two days</p>
+          <p class="card-text">• Built in Rails and javascript</p>
+          <p class="card-text">• Styled with Bootstrap</p>
+        </div>
+      </div>
+      <div class="col-md-6 card project">
+        <img class="card-img-top" src="images/battleground-disp.png" alt="DBCMDB">
+        <div class="card-block">
+          <h4 class="card-title">Battleground</h4>
+          <p class="card-text">• An iOS mobile app that promotes real world interaction and spontaneous crowd gaming</p>
+          <p class="card-text">• Constructed by a team of three in six days</p>
+          <p class="card-text">• Built in React Native</p>
+          <p class="card-text">• Utilizes a Rails API backend</p>
+          <p class="card-text">• Accesses geolocation and accelerometer data for gaming</p>
+        </div>
+      </div>
+    </section>
+    <!-- /Projects -->
+    <hr size="10">
+    <!-- Passion -->
+    <section class="container text-sm-center">
+      <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#hobbies" aria-expanded="false" aria-controls="hobies">
+        My Hobbies
+      </button>
+    </section>
+    <section class="container p-t-1 information">
+      <div class="col-md-10 collapse" id="hobbies">
+        <div class="card card-block" id="passions">
+          <h4>My Hobbies</h4>
+          <p>I am passionate about writing music for media! These are only demos. I wrote and recorded the music for these samples, but did not actually work on these commercials. The videos are just a vehicle to demonstrate my love for composing commercial music.</p>
+          <!-- Start VideoLightBox.com BODY section -->
+          <div class="videogallery">
+          <a class="voverlay" href="http://www.youtube.com/v/CcPTaCrjwWo?autoplay=1&rel=0&enablejsapi=1&playerapiid=ytplayer" title="IBM"><img src="brett_videolb/thumbnails/0.png" alt="IBM" /><span></span></a>
+        <a class="voverlay" href="http://www.youtube.com/v/NnUN6T7kpJs?autoplay=1&rel=0&enablejsapi=1&playerapiid=ytplayer" title="resilient_Final"><img src="brett_videolb/thumbnails/1.png" alt="resilient_Final" /><span></span></a>
+        <a class="voverlay" href="http://www.youtube.com/v/GOQve2kRpjE?autoplay=1&rel=0&enablejsapi=1&playerapiid=ytplayer" title="6236_Dove_Varinia_Truth_Test_30_EU_121126_HD2_nomusic"><img src="brett_videolb/thumbnails/2.png" alt="6236_Dove_Varinia_Truth_Test_30_EU_121126_HD2_nomusic" /><span></span></a><span class="videolb"><a class="videolb" href="http://videolightbox.com">Lightbox Embed Video</a> by VideoLightBox.com v2.8m</span>
+          </div>
+          <script src="brett_videolb/jquery.tools.min.js" type="text/javascript"></script>
+          <script src="brett_videolb/videolightbox.js" type="text/javascript"></script>
+          <!-- End VideoLightBox.com BODY section -->
+        </div>
+      </div>
+    </section> 
+    <!-- /Passion -->
+    <hr size="10">
+    <footer>
+      <div class="jumbotron text-sm-center">
+        <div class="social container">
+          <a href="https://twitter.com/drumguy1616"><img src="images/twitter.png"></a>
+          <a href="https://www.facebook.com/brett.ripley.9"><img src="images/facebook.png"></a>
+          <a href="https://github.com/drumguy16"><img src="images/github.png"></a>
+          <a href="https://www.linkedin.com/in/brettripley"><img src="images/linkedin.png"></a>
+        </div>
+      </div>
+    </footer>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js" integrity="sha384-vZ2WRJMwsjRMW/8U7i6PWi6AlO1L79snBrmgiDpgIWJ82z8eA5lenwvxbMV1PAh7" crossorigin="anonymous"></script>
   </body>
 </html>
