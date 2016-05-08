@@ -35,69 +35,73 @@
     <!-- header and nav -->
     <header>
     <!-- collapsable navigation -->
-   <!--    <div class="collapse" id="exCollapsingNavbar">
+      <div class="collapse" id="exCollapsingNavbar">
         <div class="bg-inverse p-a-1">
           <ul class="nav nav-inline">
-            <li class="nav-item">
+            <!-- <li class="nav-item">
               <a class="nav-link" href="articles.html">Articles</a>
+            </li> -->
+            <li class="nav-item">
+              <a class="nav-link hvr-underline-reveal" href="#about">My Story</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="projects.html">Projects</a>
+              <a class="nav-link hvr-underline-reveal" href="#project">Projects</a>    
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="languages.html">Languages</a>
+              <a class="nav-link hvr-underline-reveal" href="#hobbies">Hobbies</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="bio.html">Bio</a>
+              <a class="nav-link hvr-underline-reveal" href="#contact">Contact</a>
             </li>
           </ul>  
           
         </div>
-      </div> -->
+      </div>
     <!--  /collapsable navigation -->
 
     <!-- toggle navigation button -->
-     <!--  <nav class="navbar navbar-light bg-faded">
+      <nav class="navbar navbar-light bg-faded">
         <a class="navbar-brand" href="index.html"><h4>Brett<span>Ripley</span></h4></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar">
           &#9776;
         </button>
-      </nav> -->
+      </nav>
     <!-- /toggle navigation button -->
     </header>
     <!-- /page header -->
 
     <!-- main display head jumbotron-->
     <div class="jumbotron text-sm-center">
-      <h1 class="display-3 m-b-2">Brett Ripley</h1>
-      <img id="headshot" src="images/headshot_new.png">
+      <h1 class="display-3 m-b-2 name">Brett Ripley</h1>
+      <img class="hvr-float-shadow" id="headshot" src="images/headshot_new.png">
       <p class="lead m-b-2">Full stack developer specializing in front end web solutions</p>
     <!-- language icons -->
       <div class="container row hidden-sm-down m-b-2">
-        <img class="col-sm-1 col-sm-offset-3" src="images/JavaScript.png">
-        <img class="col-sm-1 " src="images/ajax.png">
-        <img class="col-sm-1 " src="images/jquery.png">
-        <img class="col-sm-1 " src="images/react.png">
-        <img class="col-sm-1 " src="images/ruby.png">
-        <img class="col-sm-1 " src="images/rails.png">
-        <img class="col-sm-1 " src="images/html5.png">
-        <img class="col-sm-1 " src="images/css.png">
-        <img class="col-sm-1 " src="images/bootstrap.png">
+          <img class="col-sm-1 col-sm-offset-3 hvr-buzz" src="images/JavaScript.png">
+          <img class="col-sm-1 hvr-wobble-vertical" src="images/ajax.png">
+          <img class="col-sm-1 hvr-wobble-horizontal" src="images/jquery.png">
+          <img class="col-sm-1 hvr-bob" src="images/react.png">
+          <img class="col-sm-1 hvr-hang" src="images/ruby.png">
+          <img class="col-sm-1 hvr-grow-rotate" src="images/rails.png">
+          <img class="col-sm-1 hvr-bounce-out" src="images/html5.png">
+          <img class="col-sm-1 hvr-wobble-horizontal" src="images/css.png">
+          <img class="col-sm-1 hvr-bob" src="images/bootstrap.png">
+        </ul>
       </div>
     <!-- /language icons -->
     </div>
     <!-- /main display head jumbotron -->
     <hr size="10">
     <!-- collapse buttons -->
-    <section class="container text-sm-center">
+  <!--   <section class="container text-sm-center">
           <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#my-story" aria-expanded="false" aria-controls="my-story">
             My Story
           </button>            
-    </section>
+    </section> -->
     <section class="container p-t-1 information">
-      <div class="col-md-10 collapse" id="my-story">
+      <div class="col-md-10" id="my-story">
         <div class="card card-block">
-          <h4>My Story</h4>
+          <h4 id="about">My Story</h4>
           <p>I have always known myself to be someone who is driven by creativity. I began my professional career as a music composer, performer, and educator.  While I loved the art of performing on stage, I was always more drawn to composing. I loved the craft of creating pieces of music from scratch and the process of continually chipping away them as they evolve and come to life.  I found a similar drive and passion in my career as a bartender. I Loved learning about the subtleties of the tools at my disposal and then using them to create custom craft cocktails and experiences for my clientele.</p>
           <p>I made the jump to coding upon the trusted recommendation of a friend who was in the tech field.  After exploring a few online courses, and gaining enough of a skill set to begin creating web content, I found myself sitting at my computer for  upwards of 8 hours at a time experimenting and creating in much the same fashion and with the same curiosity that I had with music and spirits.  I view web development as another empowering outlet  for creativity and problem solving. </p>
           <p>I envision myself working as a front end developer in a progressive environment with a team to produce creative and innovative solutions  while  always looking to push the boundaries of what is currently possible.</p>
@@ -105,13 +109,13 @@
       </div>
     </section>
     <hr size="10">
-    <section class="container text-sm-center">
+<!--     <section class="container text-sm-center">
           <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#my-education" aria-expanded="false" aria-controls="my-education">
            My Education
           </button>                 
-    </section>
+    </section> -->
     <section class="container p-t-1 information"> 
-      <div class="col-md-10 collapse" id="my-education">
+      <div class="col-md-10" id="my-education">
         <div class="card card-block">
           <h4>My Education</h4>
           <p>I am a proud graduate of <a href="http://devbootcamp.com/?utm_source=Google&utm_medium=cpc&utm_campaign=NYC+Metro+-+Branded&utm_content=Branded+-+Dev+Bootcamp&utm_term=dev%20bootcamp%20nyc">Dev Bootcamp NYC</a>. The Skills and tools I acquired at DBC have empowered me with the confidence to find creative solutions to virtually any design issue I encounter. During my time in bootcamp, I also refined my skills in positive communication and my ability to foster collaborative spaces in an empathetic and productive manner.</p>
@@ -122,13 +126,13 @@
     <!-- /information section -->
     <hr size="10">
     <!-- Projects -->
-    <section class="container text-sm-center">
+ <!--    <section class="container text-sm-center" id="project">
       <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#projects" aria-expanded="false" aria-controls="projects">
         My Projects
       </button>
-    </section>
-    <section class="container collapse text-sm-center p-t-1" id="projects">
-      <div class="col-md-6 card project">
+    </section> -->
+    <section class="container text-sm-center p-t-1" id="projects">
+      <div class="col-md-6 card project" id="project">
         <img class="card-img-top" src="images/mdb-1.png" alt="DBCMDB">
         <div class="card-block">
           <h4 class="card-title">DBCMDB</h4>
@@ -153,15 +157,15 @@
     <!-- /Projects -->
     <hr size="10">
     <!-- Passion -->
-    <section class="container text-sm-center">
+ <!--    <section class="container text-sm-center">
       <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#hobbies" aria-expanded="false" aria-controls="hobies">
         My Hobbies
       </button>
-    </section>
+    </section> -->
     <section class="container p-t-1 information">
-      <div class="col-md-10 collapse" id="hobbies">
+      <div class="col-md-10" id="hobbies">
         <div class="card card-block" id="passions">
-          <h4>My Hobbies</h4>
+          <h4 id="hobbies">My Hobbies</h4>
           <p>I am passionate about writing music for media!</p> 
         <div class="videogallery">
         	<a class="voverlay" href="http://vimeo.com/moogaloop.swf?clip_id=77229232&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=1&amp;autoplay=1" title="[CruiseElroy] animated promo!  Whiteboard animation!  Hooray!"><img src="index_videolb/thumbnails/0.png" alt="[CruiseElroy] animated promo!  Whiteboard animation!  Hooray!" /><span></span></a>
@@ -188,7 +192,7 @@
     <!-- /Passion -->
     <hr size="10">
     <footer>
-      <div class="jumbotron text-sm-center">
+      <div class="jumbotron text-sm-center" id="contact">
         <div class="social container">
           <a href="https://twitter.com/drumguy1616"><img src="images/twitter.png"></a>
           <a href="https://www.facebook.com/brett.ripley.9"><img src="images/facebook.png"></a>
@@ -197,11 +201,14 @@
         </div>
       </div>
     </footer>
+    
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js" integrity="sha384-vZ2WRJMwsjRMW/8U7i6PWi6AlO1L79snBrmgiDpgIWJ82z8eA5lenwvxbMV1PAh7" crossorigin="anonymous"></script>
+    <!-- My js -->
+    <script src="index.js" type="text/javascript"></script>
   </body>
 </html>
