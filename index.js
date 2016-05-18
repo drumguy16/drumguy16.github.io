@@ -11,4 +11,7 @@ $(function() {
       }
     }
   });
+  $('.name').arctext({radius: 200});
+  $('.tagline-1').arctext({radius: 140, dir: -1})
+  $('.tagline-2').arctext({radius: 200, dir: -1})
 });
