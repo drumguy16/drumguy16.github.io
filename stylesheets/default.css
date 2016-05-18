@@ -6,7 +6,8 @@ html {
 	/*opacity: 0.5;*/
 }
 body, .jumbotron {
-		background: url(../images/paper.jpg) 0 0 repeat;
+  background: url(../images/paper.jpg) 0 0 repeat;
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 
 }
 
@@ -15,10 +16,26 @@ body, .jumbotron {
 } */
 
 h1, h2, h3 {
-	color:rgb(83, 150, 204);
+	color:rgb(43, 55, 87);
   font-family: 'Concert One', serif;
 }
+
+h4 {
+  color: #5CA4CF;
+}
 /*Nav*/
+.navbar {
+  background-color: #C1BFC4;
+}
+
+.bg-inverse {
+  background-color: #95949B;
+}
+
+.nav a {
+  color: rgb(43, 55, 87);
+}
+
 .hvr-underline-reveal {
   display: inline-block;
   vertical-align: middle;
@@ -557,12 +574,10 @@ h1, h2, h3 {
 }
 
 .card{
-		background-color: rgba(112, 175, 206, 0.3);
-		/*padding: 5rem;*/
+		background-color: rgba(149, 148, 155, 0.4);
+    color: rgb(43, 55, 87);
+    
 		border:none;
-    /*border-radius: 1rem;*/
-    box-shadow: -6px 6px 3px rgb(112, 175, 206);
-
 }
 
 /*Projects*/
