@@ -203,10 +203,10 @@
     <!-- /Projects -->
     <p>
     <!-- Hobbies -->
-    <section class="container p-t-1 information">
-      <div class="col-md-10" id="hobbies">
-        <div class="card card-block" id="passions">
-          <h4 id="hobbies">My Hobbies</h4>
+    <section class="container p-t-1 collapse" id="hobby-display">
+      <div class="col-md-10">
+        <div class="row">
+          <h4>My Hobbies</h4>
           <p>I am passionate about writing music for media!</p> 
         <div class="videogallery">
         	<a class="voverlay" href="http://vimeo.com/moogaloop.swf?clip_id=77229232&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=1&amp;autoplay=1" title="[CruiseElroy] animated promo!  Whiteboard animation!  Hooray!"><img src="index_videolb/thumbnails/0.png" alt="[CruiseElroy] animated promo!  Whiteboard animation!  Hooray!" /><span></span></a>
@@ -229,7 +229,13 @@
                   <!-- End VideoLigh<!-- Start VideoLightBox.com BODY section -->
         </div>
       </div>
-    </section> 
+    </section>
+    <div class="container">
+      <hr id="hobbies">
+      <button class="btn btn-primary project-toggle-button" data-toggle="collapse" href="#hobby-display" aria-expanded="false" aria-controls="hobby-display">
+      My Hobbies
+      </button>
+    </div> 
     <!-- /Passion -->
     <footer>
       <div class="jumbotron text-sm-center" id="contact">
