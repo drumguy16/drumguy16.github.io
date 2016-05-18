@@ -1,5 +1,6 @@
 /*General html stylings*/
 @import url(https://fonts.googleapis.com/css?family=Indie+Flower);
+@import url(https://fonts.googleapis.com/css?family=Concert+One);
 
 html {
 	/*opacity: 0.5;*/
@@ -15,6 +16,7 @@ body, .jumbotron {
 
 h1, h2, h3 {
 	color:rgb(83, 150, 204);
+  font-family: 'Concert One', serif;
 }
 /*Nav*/
 .hvr-underline-reveal {
@@ -70,7 +72,7 @@ h1, h2, h3 {
 }
 
 .name {
-	font-family: 'Indie Flower', cursive;
+	font-family: 'Concert One', serif;
 }
 
 /* Buzz */

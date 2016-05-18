@@ -59,7 +59,7 @@
 
     <!-- toggle navigation button -->
       <nav class="navbar navbar-light bg-faded">
-        <a class="navbar-brand" href="index.html"><h4>Brett<span>Ripley</span></h4></a>
+        <a class="navbar-brand" href="index.html"><h3>Brett<span>Ripley</span></h3></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar">
           &#9776;
         </button>
@@ -70,9 +70,13 @@
 
     <!-- main display head jumbotron-->
     <div class="jumbotron text-sm-center">
-      <h1 class="display-3 m-b-2 name">Brett Ripley</h1>
+      <h1 class="display-3 m-b-2 hidden-sm-down name">Brett Ripley</h1>
+      <h1 class="display-3 m-b-2 hidden-md-up">Brett Ripley</h1>
       <img class="hvr-float-shadow" id="headshot" src="images/headshot_new.png">
-      <p class="lead m-b-2">Full stack developer specializing in front end web solutions</p>
+      <h2 class="m-b-2 tagline-1 hidden-sm-down">Full Stack Developer</h2>
+      <h4 class="m-b-2 tagline-2 hidden-sm-down">Specializing in front end solutions</h4>
+      <h2 class="m-b-2 hidden-md-up">Full Stack Developer</h2>
+      <h4 class="m-b-2 hidden-md-up">Specializing in front end solutions</h4>
     <!-- language icons -->
       <div class="container row hidden-sm-down m-b-2">
           <img class="col-sm-1 col-sm-offset-3 hvr-buzz" src="images/JavaScript.png">
@@ -245,6 +249,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js" integrity="sha384-vZ2WRJMwsjRMW/8U7i6PWi6AlO1L79snBrmgiDpgIWJ82z8eA5lenwvxbMV1PAh7" crossorigin="anonymous"></script>
     <script src="elevator.min.js"></script>
+    <script src="jquery.arctext.js" type="text/javascript"></script>
     
 
     
