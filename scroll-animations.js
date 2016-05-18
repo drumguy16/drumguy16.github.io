@@ -6,35 +6,14 @@ window.onload = function() {
 		    mainAudio: 'audio/elevator-bossa.mp3',
 		    endAudio: 'audio/elevator-ding.mp3'
   });
-
-	var elementButton = document.querySelector('.elevator-button-2');
-	    var elevator = new Elevator({
-	        element: elementButton,
-	    	mainAudio: 'audio/elevator-bossa.mp3',
-	    	endAudio: 'audio/elevator-ding.mp3'
-  });
-
-	var elementButton = document.querySelector('.elevator-button-3');
-		var elevator = new Elevator({
-		    element: elementButton,
-		    mainAudio: 'audio/elevator-bossa.mp3',
-		    endAudio: 'audio/elevator-ding.mp3'
-  });
-
-	var elementButton = document.querySelector('.elevator-button-4');
-		var elevator = new Elevator({
-		    element: elementButton,
-		    mainAudio: 'audio/elevator-bossa.mp3',
-		    endAudio: 'audio/elevator-ding.mp3'
-  });
-
-	var elementButton = document.querySelector('.elevator-button-5');
-		var elevator = new Elevator({
-		    element: elementButton,
-		    mainAudio: 'audio/elevator-bossa.mp3',
-		    endAudio: 'audio/elevator-ding.mp3'
-  });
 }
+$(window).scroll(function(i){
+    var scrollVar = $(window).scrollTop();
+    // $('.elevator-button-1').css({'top': .7*scrollVar });
+    $('.elevator-button-1').css({'opacity':( -800 + scrollVar )/100});
+})
 
 // You can run the elevator, by calling.
 elevator.elevate();
+
+

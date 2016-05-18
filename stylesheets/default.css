@@ -52,6 +52,14 @@ h1, h2, h3 {
   transform: translateY(0);
 }
 
+.elevator-button-1 {
+  position: fixed;
+  right: 2rem;
+  bottom: 2rem;
+  opacity: 0;
+  z-index: 2;
+}
+
 /* Main Header Displays */
 
 #headshot {
@@ -538,6 +546,9 @@ h1, h2, h3 {
 /*Projects*/
 
 .project {
+  display: none;
+  position: absolute;
+  left: 15%;
 	padding-top: 3rem;
 	padding-left: 4rem;
 	text-align: left;
@@ -547,25 +558,32 @@ h1, h2, h3 {
 	width:90%;
 }
 
-#animation {
-  background: #000;
-  width: 100px;
-  height: 100px;
-  border-radius: 100%;
-  margin: 50px auto;
-  position: relative;
+#projects {
+  height:500px;
 }
-#animation img {
-  color: #fff;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  font-size: 30px;
-  -webkit-transform: translate(-50%, -50%);
-  -moz-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  -o-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+
+#project-display {
+  background: url(../images/fabric.png);
+  overflow: auto;
+
+}
+
+.project-pic-wrapper {
+  width:50%;
+  margin: auto;
+}
+
+.project-toggle-button {
+  height: 8rem;
+  width:  8rem;
+  padding: 1rem;
+  margin-left: 40%;
+  border-radius: 4rem;
+  border: 5px solid rgb(218, 112, 51) ;
+}
+
+.modal-body {
+  overflow: hidden;
 }
 
 
