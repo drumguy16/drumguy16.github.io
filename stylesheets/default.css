@@ -536,10 +536,11 @@ h1, h2, h3 {
 }
 
 .card{
-		background: url(../images/notebook.png);
-		background-size: cover;
-		padding: 5rem;
+		background-color: rgba(112, 175, 206, 0.3);
+		/*padding: 5rem;*/
 		border:none;
+    /*border-radius: 1rem;*/
+    box-shadow: -6px 6px 3px rgb(112, 175, 206);
 
 }
 
@@ -554,32 +555,31 @@ h1, h2, h3 {
 	text-align: left;
 
 }
-.project img{
-	width:90%;
-}
 
-#projects {
-  height:500px;
-}
+
+
 
 #project-display {
-  background: url(../images/fabric.png);
-  overflow: auto;
-
+  background: url(../images/notebook.png);
+  padding-top: 15rem;
+  padding-bottom: 8rem;
 }
 
 .project-pic-wrapper {
   width:50%;
   margin: auto;
+  margin-top: 8rem 
 }
 
 .project-toggle-button {
+  color: rgb(218, 112, 51);
   height: 8rem;
   width:  8rem;
   padding: 1rem;
   margin-left: 40%;
   border-radius: 4rem;
-  border: 5px solid rgb(218, 112, 51) ;
+  background-color: rgba(67, 112, 185, 0.4);
+  
 }
 
 .modal-body {
