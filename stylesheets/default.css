@@ -29,6 +29,31 @@ hr {
   box-shadow: 0 0 7px 1px rgb(43, 55, 87);
 }
 
+hr.fancy {
+  display: block;
+  height: 30px;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px 0 0 0;
+  border-radius: 20px;
+  box-shadow: none;
+}
+
+hr.fancy:after {
+  display: block;
+  content: "";
+  height: 30px;
+  margin-top: -31px;
+  border-style: solid;
+  border-color: black;
+  border-width: 0 0 1px 0;
+  border-radius: 20px;
+}
+
+#contact {
+  display: inline-block;
+}
+
 .btn {
   margin: 0 1rem 0 1rem;
   background-color: rgba(43, 55, 87, 0.3);
@@ -623,13 +648,21 @@ hr:after {
   margin-top: 8rem 
 }
 
-.project-toggle-button {
-  
-  
-}
 
 .modal-body {
   overflow: hidden;
+}
+
+/*Contact and Footer*/
+
+.social {
+  background-color: white;
+  border-radius: 1rem;
+  background-color: rgba(22, 23, 19, 0.3);
+}
+
+.social img {
+  width: 5%;
 }
 
 
