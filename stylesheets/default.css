@@ -88,11 +88,13 @@ hr:after {
 }
 /*Nav*/
 .navbar {
-  background-color: #C1BFC4;
+  background: url(../images/fake-brick.png);
+  background-color: #f5f6fa;
 }
 
 .bg-inverse {
-  background-color: #95949B;
+  background: url(../images/fake-brick.png);
+  background-color: #f5f6fa;
 }
 
 .nav a {
@@ -145,14 +147,27 @@ hr:after {
 /* Main Header Displays */
 
 #headshot {
-	width:12%;
-	border-radius: 60%;
+	width: 180px;
+  height: 211px;
+	border-radius: 50%;
 	margin-bottom: 2rem;
 	border:1px solid black;
 }
 
 .name {
 	font-family: 'Concert One', serif;
+}
+
+.hover12 {
+  background: #2098d1;
+}
+.hover12  {
+  opacity: 1;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+.hover12:hover {
+  opacity: .5;
 }
 
 /* Buzz */
@@ -680,7 +695,8 @@ hr:after {
 }
 
 .social img {
-  width: 5%;
+  width: 4rem;
+  height: 4rem
 }
 
 
