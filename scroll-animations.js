@@ -16,4 +16,3 @@ $(window).scroll(function(i){
 // You can run the elevator, by calling.
 elevator.elevate();
 
-
