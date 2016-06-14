@@ -20,8 +20,8 @@ body {
 
 /*Main sections */
 section {
-  margin-top: 20rem;
-  margin-bottom: 20rem;
+  margin-top: 15rem;
+  /*margin-bottom: 10rem;*/
 }
 
 h1, h2, h3 {
@@ -42,11 +42,11 @@ p {
 
 hr {
   border: 0;
-    height: 1px;
-    background: #333;
-    background-image: linear-gradient(to right, #ccc, #333, #ccc);
-    display: inline-block;
-    vertical-align: middle;
+  height: 1px;
+  background: #333;
+  background-image: linear-gradient(to right, #ccc, #333, #ccc);
+  display: inline-block;
+  vertical-align: middle;
 }
 
 hr.fancy {
