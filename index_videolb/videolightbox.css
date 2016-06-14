@@ -10,11 +10,11 @@
 	*display:inline;
 	position:relative;
 	vertical-align:top;
-	margin:3px;
-	width:160px;
-	font:12px/18px "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+	margin:0px;
+	width:250px;
+	font-family:Trebuchet,Tahoma,Arial,sans-serif;
+	font-size:11px;
 	font-weight:normal;
-	color:#333333;
 	text-decoration:none;
 	text-align:center;
 	opacity:0.87;
@@ -26,5 +26,6 @@
 	margin:0;
 }
 .videogallery a:hover{
+	text-decoration:underline;
 	opacity:1;
 }
