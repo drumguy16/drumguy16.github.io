@@ -80,140 +80,160 @@
     </div>
     <!-- /Elevator Button -->
     <!-- Projects -->
-    <section class="container project-section text-sm-center" id="project">
-        <h3>Projects</h3>
-        <div class="row m-t-2">
-          <a class="col-sm-3 col-sm-offset-2" data-toggle="modal" data-target="#mdb"><img class="img-thumbnail hover12 notViewed animBlock" data-position="left" src="images/mdb-1.png"></a>
-          <a class="col-sm-3" data-toggle="modal" data-target="#battleground"><img class="img-thumbnail hover12 notViewed animBlock" data-position="left" src="images/battleground-disp.png"></a>
-          <a class="col-sm-3" data-toggle="modal" data-target="#bam"><img class="img-thumbnail hover12 notViewed animBlock" data-position="right" src="images/BAM-2.png"></a>
-        </div>
-        <div class="row m-t-2">
-          <a class="col-sm-3 col-sm-offset-2" data-toggle="modal" data-target="#salem"><img class="img-thumbnail hover12 notViewed animBlock" data-position="left" src="images/salem.png"></a>
-          <a class="col-sm-3" data-toggle="modal" data-target="#brett"><img class="img-thumbnail hover12 notViewed animBlock" data-position="right" src="images/brett-site.png"></a>
-        </div>
-        <div class="modal fade" id="mdb" role="dialog">
-          <div class="modal-dialog modal-lg">
-            <div class="modal-content">
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal">&times;</button>
-                <h4 class="modal-title">DBCMDB</h4>
-                <a href="https://peaceful-cliffs-77840.herokuapp.com/#" target="_blank"><img src="images/heroku.png"></a>
-                <a href="https://github.com/nyc-sea-lions-2016/dbcmdb" target="_blank"><img src="images/github.png"></a>
-              </div>
-              <div class="modal-body">
-                <img src="images/mdb-2.png">
-                <p class="lead">• A web app that emulates a popular movie database</p>
-                <p class="lead">• Constructed by a team of three in two days</p>
-                <p class="lead">• Built with:</p><img src="images/rails.png"><img src="images/JavaScript.png"><img src="images/ajax.png">
-                <p class="lead">• Styled with:</p><img src="images/bootstrap.png"><img src="images/css.png">
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-              </div>
+    <section class="container text-sm-center" id="project">
+      <h3>Projects</h3>
+      <div class="row m-t-2">
+        <a class="col-sm-3 col-sm-offset-2 notViewed animBlock" data-position="left" data-toggle="modal" data-target="#mdb"><img class="img-thumbnail hover12" src="images/mdb-1.png"></a>
+        <a class="col-sm-3 notViewed animBlock" data-position="left" data-toggle="modal" data-target="#battleground"><img class="img-thumbnail hover12" src="images/battleground-disp.png"></a>
+        <a class="col-sm-3 notViewed animBlock" data-position="right" data-toggle="modal" data-target="#bam"><img class="img-thumbnail hover12" src="images/BAM-2.png"></a>
+      </div>
+      <div class="row m-t-2">
+        <a class="col-sm-3 col-sm-offset-2 notViewed animBlock" data-position="left"data-toggle="modal" data-target="#salem"><img class="img-thumbnail hover12" src="images/salem.png"></a>
+        <a class="col-sm-3 notViewed animBlock" data-position="right" data-toggle="modal" data-target="#custom"><img class="img-thumbnail hover12" src="images/custom-site.png"></a>
+        <a class="col-sm-3 notViewed animBlock" data-position="right" data-toggle="modal" data-target="#brett"><img class="img-thumbnail hover12" src="images/brett-site.png"></a>
+      </div>
+      <div class="modal fade" id="mdb" role="dialog">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h4 class="modal-title">DBCMDB</h4>
+              <a href="https://peaceful-cliffs-77840.herokuapp.com/#" target="_blank"><img src="images/heroku.png"></a>
+              <a href="https://github.com/nyc-sea-lions-2016/dbcmdb" target="_blank"><img src="images/github.png"></a>
+            </div>
+            <div class="modal-body">
+              <img src="images/mdb-2.png">
+              <p class="lead">• A web app that emulates a popular movie database</p>
+              <p class="lead">• Constructed by a team of three in two days</p>
+              <p class="lead">• Built with:</p><img src="images/rails.png"><img src="images/JavaScript.png"><img src="images/ajax.png">
+              <p class="lead">• Styled with:</p><img src="images/bootstrap.png"><img src="images/css.png">
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
             </div>
           </div>
         </div>
-        <div class="modal fade" id="battleground" role="dialog">
-          <div class="modal-dialog modal-lg">
-            <div class="modal-content">
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal">&times;</button>
-                <h4 class="modal-title">Battleground</h4>
-                <a href="https://github.com/Case104/battlegrounds-react" target="_blank"><img src="images/github.png"></a>
-                <a href="https://github.com/gwoz/battleground" target="_blank"><img src="images/github.png"></a>
-              </div>
-              <div class="modal-body">
-                <img src="images/battleground.png">
-                <p class="lead">• An iOS mobile app that promotes real world interaction and spontaneous crowd gaming</p>
-                <p class="lead">• Constructed by a team of three in six days</p>
-                <p class="lead">• Accesses geolocation and accelerometer data for gaming</p>
-                <p class="lead">• Built in:</p><img src="images/react.png">
-                <p class="lead">• API back end built in:</p><img src="images/rails.png">
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-              </div>
+      </div>
+      <div class="modal fade" id="battleground" role="dialog">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h4 class="modal-title">Battleground</h4>
+              <a href="https://github.com/Case104/battlegrounds-react" target="_blank"><img src="images/github.png"></a>
+              <a href="https://github.com/gwoz/battleground" target="_blank"><img src="images/github.png"></a>
+            </div>
+            <div class="modal-body">
+              <img src="images/battleground.png">
+              <p class="lead">• An iOS mobile app that promotes real world interaction and spontaneous crowd gaming</p>
+              <p class="lead">• Constructed by a team of three in six days</p>
+              <p class="lead">• Accesses geolocation and accelerometer data for gaming</p>
+              <p class="lead">• Built in:</p><img src="images/react.png">
+              <p class="lead">• API back end built in:</p><img src="images/rails.png">
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
             </div>
           </div>
         </div>
-        <div class="modal fade" id="salem" role="dialog">
-          <div class="modal-dialog modal-lg">
-            <div class="modal-content">
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal">&times;</button>
-                <h4 class="modal-title"><a href="http://www.brettripley.com/index2.html" target="_blank">Salem Surgical Associates</a></h4>
-                <a href="https://github.com/drumguy16/salem-surgical" target="_blank"><img src="images/github.png"></a>
-              </div>
-              <div class="modal-body">
-                <a href="http://www.brettripley.com/index2.html" target="_blank"><img class="hover12" src="images/salem-disp.png"></a>
-                <p class="lead">• Small Business website for a private surgical practice</p>
-                <p class="lead">• Constructed by myself in five days</p>
-                <p class="lead">• Built with:</p><img src="images/html5.png"><img src="images/jquery.png">
-                <p class="lead">• Styled:</p><img src="images/bootstrap.png"><img src="images/css.png">
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-              </div>
+      </div>
+      <div class="modal fade" id="salem" role="dialog">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h4 class="modal-title"><a href="http://www.brettripley.com/index2.html" target="_blank">Salem Surgical Associates</a></h4>
+              <a href="https://github.com/drumguy16/salem-surgical" target="_blank"><img src="images/github.png"></a>
+            </div>
+            <div class="modal-body">
+              <a href="http://www.brettripley.com/index2.html" target="_blank"><img class="hover12" src="images/salem-disp.png"></a>
+              <p class="lead">• Small Business website for a private surgical practice</p>
+              <p class="lead">• Constructed by myself in five days</p>
+              <p class="lead">• Built with:</p><img src="images/html5.png"><img src="images/jquery.png">
+              <p class="lead">• Styled:</p><img src="images/bootstrap.png"><img src="images/css.png">
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
             </div>
           </div>
         </div>
-        <div class="modal fade" id="brett" role="dialog">
-          <div class="modal-dialog modal-lg">
-            <div class="modal-content">
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal">&times;</button>
-                <h4 class="modal-title">My Site</h4>
-                <a href="https://github.com/drumguy16/drumguy16.github.io" target="_blank"><img src="images/github.png"></a>
-              </div>
-              <div class="modal-body">
-                <img src="images/brett-site-2.png">
-                <p class="lead">• My personal website</p>
-                <p class="lead">• Constructed by myself in five days</p>
-                <p class="lead">• Built with:</p><img src="images/html5.png"><img src="images/jquery.png">
-                <p class="lead">• Styled:</p><img src="images/bootstrap.png"><img src="images/css.png">
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-              </div>
+      </div>
+      <div class="modal fade" id="custom" role="dialog">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h4 class="modal-title"><a href="https://tranquil-wave-71991.herokuapp.com/users/sign_up" target="_blank">Customizable Personal Website App</a></h4>
+              <a href="https://tranquil-wave-71991.herokuapp.com/users/sign_up" target="_blank"><img src="images/heroku.png"></a>
+              <a href="https://github.com/drumguy16/Ayesha-site" target="_blank"><img src="images/github.png"></a>
+            </div>
+            <div class="modal-body">
+              <a href="https://tranquil-wave-71991.herokuapp.com/users/sign_up" target="_blank"><img class="hover12" src="images/custom-site2.png"></a>
+              <p class="lead">• Web app that allows client to log in and update content on their personal portfolio website</p>
+              <p class="lead">• Constructed by myself in seven days</p>
+              <p class="lead">• Built with:</p><img src="images/rails.png"><img src="images/jquery.png">
+              <p class="lead">• Styled:</p><img src="images/bootstrap.png"><img src="images/css.png">
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
             </div>
           </div>
         </div>
-        <div class="modal fade" id="bam" role="dialog">
-          <div class="modal-dialog modal-lg">
-            <div class="modal-content">
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal">&times;</button>
-                <h4 class="modal-title">Beautifool and Meaningless</h4>
-                <a href="http://ancient-everglades-72933.herokuapp.com/" target="_blank"><img src="images/heroku.png"></a>
-                <a href="https://github.com/drumguy16/beautiful-and-meaningless/tree/master/beautiful_and_meaningless/app" target="_blank"><img src="images/github.png"></a>
-              </div>
-              <div class="modal-body">
-                <img src="images/BAM-3.png">
-                <p>• Web app that mashes full screen images with Tweets</p>
-                <p>• Allows users to select an image category and twitter handle. A random selection is generated based on the user input, then mashed together in a full screen display.</p>
-                <p>• This was a solo project constructed in two days</p>
-                <p>• Built with:</p><img src="images/html5.png"><img src="images/rails.png"><img src="images/react.png">
-                <p>• Styled using:</p><img src="images/css.png">
-                <p>• API:</p><img src="images/twitter.png"><img src="images/flickr.png">
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-              </div>
+      </div>
+      <div class="modal fade" id="brett" role="dialog">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h4 class="modal-title">My Site</h4>
+              <a href="https://github.com/drumguy16/drumguy16.github.io" target="_blank"><img src="images/github.png"></a>
+            </div>
+            <div class="modal-body">
+              <img src="images/brett-site-2.png">
+              <p class="lead">• My personal website</p>
+              <p class="lead">• Constructed by myself in five days</p>
+              <p class="lead">• Built with:</p><img src="images/html5.png"><img src="images/jquery.png">
+              <p class="lead">• Styled:</p><img src="images/bootstrap.png"><img src="images/css.png">
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
             </div>
           </div>
         </div>
+      </div>
+      <div class="modal fade" id="bam" role="dialog">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h4 class="modal-title">Beautifool and Meaningless</h4>
+              <a href="http://ancient-everglades-72933.herokuapp.com/" target="_blank"><img src="images/heroku.png"></a>
+              <a href="https://github.com/drumguy16/beautiful-and-meaningless/tree/master/beautiful_and_meaningless/app" target="_blank"><img src="images/github.png"></a>
+            </div>
+            <div class="modal-body">
+              <img src="images/BAM-3.png">
+              <p>• Web app that mashes full screen images with Tweets</p>
+              <p>• Allows users to select an image category and twitter handle. A random selection is generated based on the user input, then mashed together in a full screen display.</p>
+              <p>• This was a solo project constructed in two days</p>
+              <p>• Built with:</p><img src="images/html5.png"><img src="images/rails.png"><img src="images/react.png">
+              <p>• Styled using:</p><img src="images/css.png">
+              <p>• API:</p><img src="images/twitter.png"><img src="images/flickr.png">
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>   
     <!-- /Projects -->
     <!-- Hobbies -->
-    <section class="container notViewed animBlock" data-position="right" id="hobbies">
-        <h4>My Hobbies</h4>
-        <p class="lead">Check out some of my musical endeavors</p>
-        
-
-    </section>
+      <h3>My Hobbies</h3>
+      <p class="lead">Check out some of my musical endeavors</p>
+ 
     <!-- /Hobbies -->
     <!-- Information Sections -->
-    <section class="container m-t-2 m-b-2 p-t-1 information" id="my-story">
+    <section class="container p-t-1 information" id="my-story">
       <div class="row">
         <div class="col-sm-6 notViewed animBlock" data-position="left">
           <h4 id="about">About</h4>
@@ -234,14 +254,12 @@
         <h4 id="contact">Contact</h4>
         <hr class="hidden-sm-down" align="right" width="37%">        
         <div class="social container p-t-2 p-b-2">
-          <h3>Mail Me</h3>
-          <a href="mailto:ripley.brett@gmail.com?Subject=Hello%20again" target="_top"><img src="images/email.png"></a>
-          <hr class="fancy">
-          <h4>Find Me On Social Media</h4>
-          <a href="https://twitter.com/drumguy1616"><img src="images/twitter.png"></a>
-          <a href="https://www.facebook.com/brett.ripley.9"><img src="images/facebook.png"></a>
-          <a href="https://github.com/drumguy16"><img src="images/github.png"></a>
-          <a href="https://www.linkedin.com/in/brettripley"><img src="images/linkedin.png"></a>
+          <a href="mailto:ripley.brett@gmail.com?Subject=Hello%20again" target="_top"><img class="notViewed animBlock" data-position="right" src="images/email.png"></a>
+          <hr class="fancy notViewed animBlock" data-position="left">
+          <a href="https://twitter.com/drumguy1616"><img class="notViewed animBlock" data-position="left" src="images/twitter.png"></a>
+          <a href="https://www.facebook.com/brett.ripley.9"><img class="notViewed animBlock" data-position="left" src="images/facebook.png"></a>
+          <a href="https://github.com/drumguy16"><img class="notViewed animBlock" data-position="right" src="images/github.png"></a>
+          <a href="https://www.linkedin.com/in/brettripley"><img class="notViewed animBlock" data-position="right" src="images/linkedin.png"></a>
         </div>
         <div>
           Icons made by <a href="http://www.flaticon.com/authors/appzgear" title="Appzgear">Appzgear</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a>

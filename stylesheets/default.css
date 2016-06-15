@@ -21,7 +21,6 @@ body {
 /*Main sections */
 section {
   margin-top: 15rem;
-  /*margin-bottom: 10rem;*/
 }
 
 h1, h2, h3 {
@@ -703,10 +702,6 @@ hr:after {
   padding-bottom: 8rem;
 }
 
-#hobbies {
-  margin-left: 20%;
-  margin-right: 20%;
-}
 
 .project-pic-wrapper {
   width:500px;
